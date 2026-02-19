@@ -24,7 +24,7 @@ export default function BookingForm({ isOpen, onClose, selectedStudio, selectedD
     customer_name: '',
     customer_email: '',
     customer_phone: '',
-    session_type: (selectedType || 'recording') as Booking['session_type'],
+    session_type: 'recording' as Booking['session_type'],
     studio_room: (selectedStudio || 'studio_a') as Booking['studio_room'],
     booking_date: selectedDate || '',
     start_time: '',
