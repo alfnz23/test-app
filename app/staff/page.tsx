@@ -103,7 +103,7 @@ export default function StaffDashboard() {
       // Update local state
       setBookings(prev => prev.map(booking => 
         booking.id === bookingId 
-          ? { ...booking, status: newStatus }
+           ? { ...booking, status: newStatus
           : booking
       ))
 
